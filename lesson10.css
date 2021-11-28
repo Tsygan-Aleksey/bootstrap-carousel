@@ -1,0 +1,110 @@
+.container__card{
+    display: flex;
+    flex: 0 1 33.33%;
+    flex-direction: row;
+    /*margin-bottom: 10px;*/
+    align-items: center;
+    justify-content: center;
+    max-width: 1107.5px;
+
+}
+.container__card div{
+    margin-right: 32.5px;
+}
+.container__card div:last-child{
+    margin-right: 0px;
+}
+.carousel-control-prev{
+    background-color: red;
+}
+.carousel-indicators{
+    position: unset;
+    /*top: 250px;*/
+
+}
+.carousel-indicators button{
+    background-color: red;
+}
+.carousel__flex{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-color, .buttonimp{
+    background-color: #02897A !important;
+    border-radius: 50% !important;
+    width: 16px !important;
+    height: 16px !important;
+}
+.container__card{
+
+}
+.card-text__heading{
+    display: block;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 12px;
+
+}
+.card-text__heading_bold{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 24px;
+}
+.card-text__sub-heading{
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 24px 35px 40px 24px;
+}
+.card-body_padding{
+    box-sizing: border-box;
+    padding: 0px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    width: 348px;
+}
+.card img{
+    height: 185px;
+    width: 347px;
+}
+.carousel-indicators_margin-top{
+    margin-top: 64px;
+}
+.carousel-inner_flex{
+    display: flex;
+    align-items: center;
+    position: unset;
+    width: unset;
+}
+.header-style{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 51px;
+    margin-left: 93px;
+}
+.subheader-style{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 93px;
+}
